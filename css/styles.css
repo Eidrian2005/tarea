@@ -1,0 +1,64 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #242526;
+}
+
+.bg-{ background-color: #242526;
+}
+
+#contenedorPadre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+.bord{
+    border-bottom: 1px #e4e4e4 solid;
+}
+
+.card{
+    background-color: #242526;
+    color: #ffffff;
+}
+
+.card:hover{
+    border: #5895cf solid;
+}
+
+
+
+.btnEliminar{
+    
+    border: none;
+    background-color: #c23e3e;
+    border-radius: 5px;
+    width: 70px;
+    color: #ffffff;
+}
+
+#botonPop{
+    width: 40px;
+    border-radius: 5px;
+    background-color: #b0b3b8;
+    border: none;
+}
+
+.estilosPop{
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    width: 550px;
+    background-color: #3a3b3c;
+    border: 1px solid #3a3b3c;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
