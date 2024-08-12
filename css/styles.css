@@ -33,7 +33,15 @@ body{
     border: #5895cf solid;
 }
 
-
+#botonSign{
+    border: none;
+    background-color: #b0b3b837;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 70px;
+    color: #ffffff;
+    text-align: center;
+}
 
 .btnEliminar{
     

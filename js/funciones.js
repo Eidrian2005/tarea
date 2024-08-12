@@ -15,10 +15,11 @@ botonPopver.addEventListener('click',function() {
 
 botonAgregar.forEach(boton => {
     boton.addEventListener('click', function() {
-        const nombreProducto = this.previousElementSibling.textContent;
-
-        listaCompra.push(nombreProducto)
-        actualizarCarrito()
+        
+            const nombreProducto = this.previousElementSibling.textContent;
+            listaCompra.push(nombreProducto)
+            actualizarCarrito()
+        
     })
 })
 
@@ -26,6 +27,8 @@ function actualizarCarrito() {
     carritoCompras.innerHTML = ''
 
     listaCompra.forEach(producto =>{
+
+        
         const objeto = document.createElement('p')
         const botonElim = document.createElement('button')
         
