@@ -28,7 +28,11 @@ function actualizarCarrito() {
     listaCompra.forEach(producto =>{
         const objeto = document.createElement('p')
         const botonElim = document.createElement('button')
-        botonElim.innerHTML = "eliminar"
+        
+        const icono = document.createElement('i')
+        icono.classList.add('fa-solid', 'fa-trash')
+        botonElim.appendChild(icono)
+
         objeto.textContent = producto
         botonElim.classList.add("btnEliminar")
         carritoCompras.appendChild(objeto)
